@@ -9,6 +9,7 @@ add_executable(network_analyzer
     src/main.cpp
     src/Packet.cpp
     src/TcpPacket.cpp
+    src/UdpPacket.cpp
 )
 
 target_include_directories(network_analyzer PRIVATE
